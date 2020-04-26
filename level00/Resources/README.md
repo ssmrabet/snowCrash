@@ -1,9 +1,15 @@
 # LEVEL 00
 Au début on a chercher les fichiers que le user flag00 posséde
 
+<<<<<<< HEAD
 ''
 find / -user flag00  2>/dev/null
 ''
+=======
+```
+find / -user flag00  2>/dev/null
+```
+>>>>>>> edit readme file
 
 find pour la recherche dans le dossier racine /
 -user : File is owned by user uname
@@ -11,10 +17,10 @@ find pour la recherche dans le dossier racine /
 
 Après j'ai affiché le fichier de retour
 
-'
+```
 cat /usr/sbin/john
 cdiiddwpgswtgt
-'
+```
 
 Donc normalement le mot de passe est cdiiddwpgswtgt sauf que j'ai un message d'erreur Authentification failure
 
@@ -22,6 +28,6 @@ D'après les resource de la video y'a un lien de cryptage/decryptage dcode.fr o�
 
 On a testé tout les chiffre césar pour le decode jusqu'à ce qu'on a trouvé que 15 est le bon et le mot de passe est
 
-'
+```
 nottoohardhere
-'
+```
