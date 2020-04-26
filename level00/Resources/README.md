@@ -1,15 +1,9 @@
 # LEVEL 00
 Au début on a chercher les fichiers que le user flag00 posséde
 
-<<<<<<< HEAD
-''
-find / -user flag00  2>/dev/null
-''
-=======
 ```
 find / -user flag00  2>/dev/null
 ```
->>>>>>> edit readme file
 
 find pour la recherche dans le dossier racine /
 -user : File is owned by user uname
